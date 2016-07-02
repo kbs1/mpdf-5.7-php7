@@ -1,3 +1,8 @@
+About
+============
+
+This is the latest mpdf 5.7, with obsolete constructor names replaced by __construct.
+
 Upgrading
 ============
 
