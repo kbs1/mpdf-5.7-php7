@@ -1,7 +1,7 @@
 About
 ============
 
-This is the latest mpdf 5.7, with obsolete constructor names replaced by __construct.
+This is the latest mpdf 5.7, with obsolete constructor names replaced by __construct (compatibility with PHP7 without warnings).
 
 Upgrading
 ============
