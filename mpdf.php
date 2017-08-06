@@ -9929,7 +9929,7 @@ function _getImage(&$file, $firsttime=true, $allowvector=true, $orig_srcpath=fal
 	// firsttime i.e. whether to add to this->images - use false when calling iteratively
 	// Image Data passed directly as var:varname
 	if (preg_match('/var:\s*(.*)/',$file, $v)) {
-		$data = $this->$v[1];
+		$data = $this->{$v[1]};
 		$file = md5($data);
 	}
 	if (preg_match('/data:image\/(gif|jpeg|png);base64,(.*)/',$file, $v)) {
