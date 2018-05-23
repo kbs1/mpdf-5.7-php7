@@ -2413,7 +2413,7 @@ function svgDefineTxtStyle($critere_style)
 					return;
 				}
 				else if (strtolower($name) == 'stop'){
-						if (!$last_gradid) break;
+						if (!$last_gradid) return;
 						if (isset($attribs['style']) AND preg_match('/stop-color:\s*([^;]*)/i',$attribs['style'],$m)) {
 							$color = trim($m[1]);
 						} else if (isset($attribs['stop-color'])) {
